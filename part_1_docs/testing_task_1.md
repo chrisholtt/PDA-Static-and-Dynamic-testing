@@ -17,8 +17,10 @@ Only comment on errors that would stop the tests running.
 class CardGame:
 
   def check_for_ace(self, card):
+    # Should use "==" comparisson operator
     if card.value = 1:
       return True
+      # else needs ":" after it.
     else
       return False
    
@@ -34,9 +36,11 @@ class CardGame:
 
 # return statement is using a plus operand on a string which will result in an error.
 def cards_total(self, cards):
+  # total should be initialised to zero
   total
   for card in cards:
     total += card.value
+    # return statement inside the for loop
     return "You have a total of" + total
   
 ```
